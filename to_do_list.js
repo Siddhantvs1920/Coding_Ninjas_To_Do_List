@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return li;
     }
 
-    function renderTasks() {
+    function showTasksList() {
         savedTasks.forEach(({ task, isChecked }) => {
             const todoItem = createTodoItem(task, isChecked);
             todoList.appendChild(todoItem);
@@ -99,5 +99,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    renderTasks();
+    showTasksList();
 });
