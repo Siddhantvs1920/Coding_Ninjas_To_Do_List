@@ -47,7 +47,7 @@ li {
     cursor: pointer;
 }
 .delete-button:hover {
-    color: #c82333;
+    background: #fa0019;
 }
 .task-counts {
     display: flex;
