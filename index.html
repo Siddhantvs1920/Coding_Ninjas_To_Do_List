@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="to_do_list.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 ">
+                <h1 class="text-center mb-3">Todo List</h1>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control todo-input" placeholder="Add a new task...">
+                    </div>
+                    <div class="col-auto">
+                        <button class="btn btn-success add-button">Add</button>
+                    </div>
+                </div>
+                <ul class="todo-list mt-3"></ul>
+                <div class="task-counts">
+                    <p>Total Tasks: <span class="total-tasks">0</span></p>
+                    <p>Completed Tasks: <span class="completed-tasks">0</span></p>
+                   <!-- // <p>Incomplete Tasks: <span class="incomplete-tasks">0</span></p> -->
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <script src="to_do_list.js"></script>
+</body>
+</html>
