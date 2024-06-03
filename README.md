@@ -28,4 +28,4 @@ To run this project locally:
 
 ## Credits
 
-This project was created as part of a coding Ninjas skill Test.
+This project was created as part of a Coding Ninjas Skill Test.
